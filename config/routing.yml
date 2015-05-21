@@ -3,8 +3,12 @@ name:
   action: ActionName
 
 home:
-  controller: Taf\Controllers\Hello
-  action: helloWorldAction
+  controller: Taf\Controllers\PageController
+  action: getHome
+
+contact:
+  controller: Taf\Controllers\PageController
+  action: getContact
 
 getName:
   controller: Taf\Controllers\Hello
