@@ -1,0 +1,14 @@
+{
+    "name": "Taf/mvc-routing",
+    "require": {
+        "doctrine/dbal": "<2.5",
+        "symfony/yaml": "2.6",
+        "symfony/http-foundation": "2.6",
+        "twig/twig": "~1.18"
+    },
+  "autoload": {
+    "psr-4": {
+      "Taf\\": "src/"
+    }
+  }
+}

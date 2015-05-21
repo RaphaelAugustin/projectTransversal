@@ -1,0 +1,19 @@
+name:
+  controller: ControllerClassName
+  action: ActionName
+
+home:
+  controller: Taf\Controllers\Hello
+  action: helloWorldAction
+
+getName:
+  controller: Taf\Controllers\Hello
+  action: nameAction
+
+404:
+  controller: Taf\Controllers\Error
+  action: error404Action
+
+userlist:
+  controller: Taf\Controllers\UserController
+  action: listAction
