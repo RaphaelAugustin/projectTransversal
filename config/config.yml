@@ -1,0 +1,6 @@
+driver:   pdo_mysql
+dbname:   transversal
+user:     root
+password: null
+host:     localhost
+charset:  UTF8

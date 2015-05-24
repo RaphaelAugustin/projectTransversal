@@ -3,3 +3,7 @@
 For the project, you need "composer", and execute this command to use the project.
 
     - composer install
+
+Parameters for database are in :
+   
+    - config/config.yml

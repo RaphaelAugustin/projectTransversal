@@ -3,29 +3,29 @@
 <head>
     <meta charset="utf-8"/>
     <title>{% block title '' %}</title>
-    <link rel='stylesheet' href="../web/css/home.css">
+    <link rel='stylesheet' href='css/style.css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
-    <script src="../web/js/script.js"></script>
+    <script src="web/js/script.js"></script>
     <script type="text/javascript">
     </script>
 </head>
 <body>
 <div class="menu">
     <ul>
-        <li><a class="lien-logo" href="home.php">SCOOT'LIB</a></li>
-        <li><a class="lien-menu" href="home.php">Accueil</a></li>
-        <li><a class="lien-menu" onclick="scrollComment()" href="#Comment">Comment ca marche?</a></li>
-        <li><a class="lien-menu" onclick="scrollPlan()" href="#Plan">Plan des stations</a></li>
-        <li><a class="lien-menu" onclick="scrollOffres()" href="#Offres">Offres et tarifs</a></li>
-        <li><a class="lien-menu" href="">FAQ</a></li>
-        <li><a class="lien-menu" onclick="scrollContact()" href="#Contact">Contact</a></li>
+        <li><a class="lien-logo" href="index.php?p=home">SCOOT'LIB</a></li>
+        <li><a class="lien-menu" href="index.php?p=home">Accueil</a></li>
+        <li><a class="lien-menu" href="index.php?p=home#working">Comment ca marche?</a></li>
+        <li><a class="lien-menu" href="index.php?p=home#plan">Plan des stations</a></li>
+        <li><a class="lien-menu" href="index.php?p=home#offers">Offres et tarifs</a></li>
+        <li><a class="lien-menu" href="index.php?p=home#faq">FAQ</a></li>
+        <li><a class="lien-menu" href="index.php?p=contact">Contact</a></li>
     </ul>
     <ul>
-        <li><a class="lien-connect" href="">Connexion</a></li>
-        <li><a class="lien-inscription" href="">Inscription</a></li>
+        <li><a class="lien-connect" href="index.php?p=logIn">Connexion</a></li>
+        <li><a class="lien-inscription" href="index.php?p=signIn">Inscription</a></li>
     </ul>
 </div>
 {% block content %}{% endblock %}

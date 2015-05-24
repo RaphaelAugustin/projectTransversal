@@ -26,7 +26,39 @@ class PageController {
             $this->render('index.html.twig', array())
         );
     }
+    public function getContact()
+    {
+        return new Response(
+            $this->render('contact.html.twig', array())
+        );
+    }
 
+    public function getFaq()
+    {
+        return new Response(
+            $this->render('faq.html.twig', array())
+        );
+    }
+
+    public function getLogIn()
+    {
+        return new Response(
+            $this->render('logIn.html.twig', array())
+        );
+    }
+
+    public function getSignIn()
+    {
+        return new Response(
+            $this->render('signIn.html.twig', array())
+        );
+    }
+    public function getSignIn2()
+    {
+        return new Response(
+            $this->render('signIn2.html.twig', array())
+        );
+    }
     protected function render($template, $variables)
     {
         $template =$this->twig->loadTemplate($template);

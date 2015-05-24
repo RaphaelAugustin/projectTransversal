@@ -23,7 +23,7 @@ $controllerAction = $router->getControllerAction($request);
 // init twig
 $loader = new Twig_Loader_Filesystem('../views');
 $twig = new Twig_Environment($loader, array(
-    'cache' => '../cache/templates',
+    'cache' => false /*'../cache/templates'*/,
 ));
 
 

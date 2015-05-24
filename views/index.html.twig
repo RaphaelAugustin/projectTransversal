@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-
+{% block title 'Accueil' %}
 {% block content %}
     <div class="large-background-slider">
         <div class="mini-wrap">
@@ -41,7 +41,7 @@
     <div class="rectangle"><p class="separator-text">Comment ca marche?</p>
     </div>
     <!-- Comment ca marche? -->
-    <div class="bloc-tarif">
+    <div class="bloc-tarif" id="working">
         <p class="p-offre">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -58,7 +58,7 @@
         <img class="icon-parking" src="../web/img/icon-parking.png" alt="parking">
     </div>
     <!-- Separateur -->
-    <div class="bloc-station">
+    <div class="bloc-station" id="plan">
         <div class="rectangle-2"><p class="separator-text">Plans des stations</p>
             <input class="recherche" type="text" name="recherche" placeholder="Saisir un lieu">
             <input class="ok-recherche" type="submit" value="Recherche">
@@ -66,7 +66,7 @@
         </div>
     </div>
     <!-- Offres et tarifs -->
-    <div class="bloc-offre">
+    <div class="bloc-offre" id="offers">
         <div class="rectangle-3"><p class="separator-text">Offres et tarifs</p>
             <div class="forme-tarif">
                 <div class="bloc-formule"><p class="text-formule-1">Scootlib' 1 semaine</p>

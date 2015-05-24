@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title 'Connexion' %}
+{% block content %}
+    <p class="connexion">Connexion</p>
+    <form method="post" action="index.php?p=userConnexion">
+    <p class="Nom-utilisateur">Nom d'utilisateur:</p><input class="inputPseudo" type="text" name='login' placeholder="Saisir un pseudo">
+    <p class="pwd-utilisateur">Mot de passe:</p><input class="inputPwd" type="password" name='password' placeholder="Saisir un mot de passe"><br>
+    <input class="buttonReg" type="submit" value="Connexion" onclick="location.href='index.php?p=home'">
+    </form>
+    <a class="inscrire" href="index.php?p=signIn">Vous inscrire</a>
+{% endblock %}

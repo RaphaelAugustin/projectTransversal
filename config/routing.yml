@@ -10,14 +10,22 @@ contact:
   controller: Taf\Controllers\PageController
   action: getContact
 
-getName:
-  controller: Taf\Controllers\Hello
-  action: nameAction
+logIn:
+  controller: Taf\Controllers\PageController
+  action: getLogIn
+
+signIn:
+  controller: Taf\Controllers\PageController
+  action: getSignIn
+
+signIn2:
+  controller: Taf\Controllers\PageController
+  action: getSignIn2
 
 404:
   controller: Taf\Controllers\Error
   action: error404Action
 
-userlist:
+userConnexion:
   controller: Taf\Controllers\UserController
-  action: listAction
+  action: userConnection
