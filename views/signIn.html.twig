@@ -2,69 +2,77 @@
 {% block title 'Inscription' %}
 
 {% block content %}
-    	</div>
-	<div class="bloc-inscription">
-		<p class="info-perso">Etape 1/2:  Informations Personnelles</p>
-		<p class="etat"> Votre état civil </p>
-		<p class="civilite">Civilité*
-	<form method="POST" name="civilité-form">
-				<input class="input-radio" type="radio" name="sex" value="monsieur">Monsieur<br>
-				<input class="input-radio" type="radio" name="sex" value="madame">Madame<br>
-				<input class="input-radio" type="radio" name="sex" value="mlle">Mademoiselle<br>
-       		<label for="nom">Nom*:</label>
-       			<input type="text" name="nom" id="nom"/><br>
-       		<label for="prenom">Prénom*:</label>
-       			<input type="text" name="prenom" id="prenom" /><br>
-			<label for="date">Date de naissance*:</label>
-       			<input type="date" name="anniversaire" id="date">
-	</form>
-	<p class="etat"> Vos coordonnées </p><br><br>
-	<form method="POST" name="coordonnees-form">
-		<label for="adresse">Adresse*</label>
-       			<input type="text" name="adresse" id="adresse"/><br>
-       		<label for="code">Code Postal*:</label>
-       			<input type="text" name="code" id="code" /><br>
-			<label for="ville">Ville*:</label>
-       			<input type="text" name="ville" id="ville"><br>
-       	<label for="pays">Pays*:</label>
-       			<input type="text" name="pays" id="pays"/><br>
-       		<label for="telephone">Téléphone*:</label>
-       			<input type="text" name="telephone" id="telephone" /><br>
-			<label for="mail">E-mail*:</label>
-       			<input type="email" name="mail" id="mail"><br>
-       		<label for="confirm-mail">Confirmation E-mail*:</label>
-       			<input type="email" name="confirm-mail" id="confirm-mail">
+        </div>
+    <div class="bloc-inscription">
+        <p class="info-perso">Etape 1/2:  Informations Personnelles</p>
+        <p class="etat"> Votre état civil </p>
+        <p class="civilite">Civilité*
+    <form method="POST" name="civilité-form">
+                <input class="input-radio" type="radio" name="sex" value="monsieur">Monsieur<br>
+                <input class="input-radio" type="radio" name="sex" value="madame">Madame<br>
+                <input class="input-radio" type="radio" name="sex" value="mlle">Mademoiselle<br>
+               <label for="nom">Nom*:</label>
+                   <input type="text" name="nom" id="nom"/><br>
+               <label for="prenom">Prénom*:</label>
+                   <input type="text" name="prenom" id="prenom" /><br>
+            <label for="date">Date de naissance*:</label>
+                   <input type="date" name="anniversaire" id="date">
+    </form>
+    <p class="etat"> Vos coordonnées </p><br><br>
+    <form method="POST" name="coordonnees-form">
+        <label for="adresse">Adresse*</label>
+                   <input type="text" name="adresse" id="adresse"/><br>
+               <label for="code">Code Postal*:</label>
+                   <input type="text" name="code" id="code" /><br>
+            <label for="ville">Ville*:</label>
+                   <input type="text" name="ville" id="ville"><br>
+           <label for="pays">Pays*:</label>
+                   <input type="text" name="pays" id="pays"/><br>
+               <label for="telephone">Téléphone*:</label>
+                   <input type="text" name="telephone" id="telephone" /><br>
+            <label for="mail">E-mail*:</label>
+                   <input type="email" name="mail" id="mail"><br>
+               <label for="confirm-mail">Confirmation E-mail*:</label>
+                   <input type="email" name="confirm-mail" id="confirm-mail">
      </form>
      <p class="etat"> Vos identifiants de connexion à votre espace personnel</p><br><br>
      <form id="my-form" method="POST">
-     	<label for="my-nickname">Nom d'utilisateur*:</label>
-     		<input type="text" name="nickname" id="my-nickname"><br>
-     	<label for="my-password">Mot de passe*:</label>
-			<input type="password" name="password" id="my-password"><br>
-		<label for="my-password-check">Confirmation mot de passe*:</label>
-			<input type="password" name="password-check" id="my-password-check"><br>
-		<label for="test"> Test des informations </label>
-		<input type="submit" value="Test!" id="test">
-	</form>
-	<div id="error-message"></div>
-	<div id="success-message"></div>
+         <label for="my-nickname">Nom d'utilisateur*:</label>
+             <input type="text" name="nickname" id="my-nickname"><br>
+         <label for="my-password">Mot de passe*:</label>
+            <input type="password" name="password" id="my-password"><br>
+        <label for="my-password-check">Confirmation mot de passe*:</label>
+            <input type="password" name="password-check" id="my-password-check"><br>
+        <label for="test"> Test des informations </label>
+        <input type="submit" value="Test!" id="test">
+    </form>
+    <div id="error-message"></div>
+    <div id="success-message"></div>
 
-	<p class="etat"> Vos code de pin de location</p><br>
-	<p class="texte-pin">Le code PIN choisi vous sera demandé en station Scootlib' pour confirmer votre identité avant chaque location </p><br><br>
-	<form name="pin-form" method="POST">
-     	<label for="code-pin">Code PIN ( Veuillez saisir 4 chiffres)*:</label>
-			<input type="password" name="code-pin" id="code-pin"><br>
-		<label for="code-pin-check">Confirmation Code PIN*:</label>
-			<input type="password" name="code-pin-check" id="code-pin-check"><br>
-	</form>
-	<p class="texte-terme">J'ai lu et j'accepte les conditions générales d'utilisations du service</p>
-	<p class="texte-champ">* Champs obligatoires</p>
-	<input type="button" class="bouton-etape" value="Etape suivante" onclick="location.href='index.php?p=signIn2'">
-	</div>
-	 <div class="bloc-contact-inscription">
-            <p class="text-contact">Des questions? N'hesitez pas à nous contacter </p>
-            <form>
-                    <input type="button" class="bouton" value="Contact" onclick="location.href='index.php?p=contact'">
-            </form>
-        </div>
+    <p class="etat"> Vos code de pin de location</p><br>
+    <p class="texte-pin">Le code PIN choisi vous sera demandé en station Scootlib' pour confirmer votre identité avant chaque location </p><br><br>
+    <form name="pin-form" method="POST">
+         <label for="code-pin">Code PIN ( Veuillez saisir 4 chiffres)*:</label>
+            <input type="password" name="code-pin" id="code-pin"><br>
+        <label for="code-pin-check">Confirmation Code PIN*:</label>
+            <input type="password" name="code-pin-check" id="code-pin-check"><br>
+    </form>
+    <p class="texte-terme">J'ai lu et j'accepte les conditions générales d'utilisations du service</p>
+    <p class="texte-champ">* Champs obligatoires</p>
+    <input type="button" class="bouton-etape" value="Etape suivante"">
+    </div>
+
+    <div class="bloc-inscription-suite">
+    <p class="info-perso">Etape 2/2: Pièces à fournir</p><br><br><br>
+    <p class="texte-finalisation">Pour finaliser votre inscription certains documents sont necessaires. </p>
+    <p class="piece-identite">Une pièce d'identité différente du permis</p>
+    <form>
+        <input type='file' name='motiv' class="file" />
+    </form>
+    <p class="piece-identite">Une permis A, A2 ou un BSR</p>
+    <form>
+        <input type='file' name='motiv' class="file" />
+    </form>
+    <input type="button" class="bouton-validation" value="Valider" onclick="location.href='index.php?p=home'">
+</div>
 {% endblock %}

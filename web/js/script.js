@@ -47,6 +47,10 @@ window.onload = function(){
                 return false;
             }
 
+
+            document.getElementsByClassName('bouton-etape').click(function() {
+               document.getElementsByClassName('bloc-inscription').style.display = 'none';
+            });
         };
 
     
