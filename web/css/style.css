@@ -708,6 +708,7 @@ a{
 	height: 200px;
 	background:#8fbe00;
 	position: relative;
+    clear: both;
 	/*margin-top:3200px;*/
 
 }
@@ -877,7 +878,7 @@ label{position:relative;
 	width: 100%;
 	height: 200px;
 	background:#8fbe00;
-	position: absolute;
+	position: relative;
 	margin-top:1500px;
 }
 
@@ -894,7 +895,7 @@ label{position:relative;
 /*INSCRIPTION-SUITE*/
 .bloc-inscription-suite{
 	margin-top:60px;
-	position: relative;
+	position: absolute;
 	width: 1800px;
 	height: 600px;
 }
@@ -932,11 +933,11 @@ label{position:relative;
 	width: 100%;
 	height: 200px;
 	background:#8fbe00;
-	position: absolute;
+	position: relative;
 	margin-top:800px;
 }
 .bloc-flooter-inscription-suite{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 100px;
 	margin-top:1100px;
@@ -1289,4 +1290,8 @@ margin-top:450px;
 .inscrire{position: fixed;
 	margin-top:150px;
 	color: red
+}
+
+.civilite-form {
+    position: relative;
 }
