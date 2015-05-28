@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <title>{% block title '' %}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/responsiveslides.css"/>
     <link rel='stylesheet' href='css/style.css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -13,45 +15,49 @@
     </script>
 </head>
 <body>
-<div class="menu">
-    <ul>
-        <li><a class="lien-logo" href="index.php?p=home">SCOOT'LIB</a></li>
-        <li><a class="lien-menu" href="index.php?p=home">Accueil</a></li>
-        <li><a class="lien-menu" href="index.php?p=home#working">Comment ca marche?</a></li>
-        <li><a class="lien-menu" href="index.php?p=home#plan">Plan des stations</a></li>
-        <li><a class="lien-menu" href="index.php?p=home#offers">Offres et tarifs</a></li>
-        <li><a class="lien-menu" href="index.php?p=home#faq">FAQ</a></li>
-        <li><a class="lien-menu" href="index.php?p=contact">Contact</a></li>
-    </ul>
-    <ul class="btn-connect">
-        <li><a class="lien-connect" href="index.php?p=logIn">Connexion</a></li>
-        <li><a class="lien-inscription" href="index.php?p=signIn">Inscription</a></li>
-    </ul>
-</div>
+
+
+<header>
+    <div class="container">
+        <ul class="pull-left">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Comment ça marche?</a></li>
+            <li><a href="#">Plan des stations</a></li>
+            <li><a href="#">Offres et tarifs</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="pull-right">
+            <a href="#" class="button">Connexion</a>
+            <a href="#" class="button">inscription</a>
+        </div>
+    </div>
+</header>
+
 {% block content %}{% endblock %}
-<!-- CONTACT -->
-<div class="bloc-contact">
-    <p class="text-contact">Des questions? N'hesitez pas à nous contacter </p>
-    <form>
-        <input type="button" class="bouton" value="Contact" onclick="location.href='index.php?p=contact'">
-    </form>
-</div>
+
 <!-- Footer -->
-<div class="bloc-flooter">
-    <ul>
-        <li><a class="lien-menu-floot" href="index.php?p=home">Accueil</a></li>
-        <li><a class="lien-menu-floot" href="index.php?p=working">Comment ca marche?</a></li>
-        <li><a class="lien-menu-floot" href="index.php?p=#plan">Plan des stations</a></li>
-        <li><a class="lien-menu-floot" href="index.php?p=#offers">Offres et tarifs</a></li>
-        <li><a class="lien-menu-floot" href="index.php?p=#faq">FAQ</a></li>
-        <li><a class="lien-menu-floots" href="index.php?p=contact">Contact</a></li>
-    </ul>
-    <img class="logo-twitter" src="../web/img/logo-twitter.png" alt="twitter">
-    <img class="logo-facebook" src="../web/img/logo-facebook.png" alt="facebook">
-    <img class="logo-google" src="../web/img/logo-google.png" alt="google">
-    <img class="logo-youtube" src="../web/img/logo-youtube.png" alt="youtube">
-    <img class="logo-googleplay" src="../web/img/google-play.jpg" alt="google-play">
-    <img class="logo-apple" src="../web/img/apple-store.png" alt="apple-store">
+<div class="footer">
+    <div class="container">
+        <ul class="pull-left">
+            <li><a href="index.php?p=home">Accueil</a></li>
+            <li><a href="index.php?p=working">Comment ca marche?</a></li>
+            <li><a href="index.php?p=#plan">Plan des stations</a></li>
+            <li><a href="index.php?p=#offers">Offres et tarifs</a></li>
+            <li><a href="index.php?p=#faq">FAQ</a></li>
+            <li><a href="index.php?p=contact">Contact</a></li>
+        </ul>
+        <div class="pull-right">
+            <img class="logo-twitter" src="../web/img/logo-twitter.png" alt="twitter">
+            <img class="logo-facebook" src="../web/img/logo-facebook.png" alt="facebook">
+            <img class="logo-google" src="../web/img/logo-google.png" alt="google">
+            <img class="logo-youtube" src="../web/img/logo-youtube.png" alt="youtube">
+            <img class="logo-googleplay" src="../web/img/google-play.jpg" alt="google-play">
+            <img class="logo-apple" src="../web/img/apple-store.png" alt="apple-store">
+        </div>
+    </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="./js/responsiveslides.min.js"></script>
 </body>
 </html>

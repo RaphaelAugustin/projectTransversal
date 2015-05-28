@@ -16,6 +16,8 @@ function scrollComment() {
 
 window.onload = function(){
 
+    $(".rslides").responsiveSlides();
+
             document.getElementById('my-form').onsubmit = function() {
                 var errorBlock = document.getElementById('error-message');
                 var successBlock = document.getElementById('success-message');
