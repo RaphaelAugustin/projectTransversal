@@ -4,8 +4,38 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f1c0ff15b9686f0d834ca4d1f331274",
+    "hash": "071ac0f7b498cc70ed79d18aba1a4c9c",
     "packages": [
+        {
+            "name": "alexandresimonet/paypal-component",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexandreSimonet/PaypalComponent.git",
+                "reference": "2484de02bb67794f4771f51ba91d63323feeedf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexandreSimonet/PaypalComponent/zipball/2484de02bb67794f4771f51ba91d63323feeedf4",
+                "reference": "2484de02bb67794f4771f51ba91d63323feeedf4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlexandreSimonet\\PaypalComponent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "AlexandreSimonet",
+                    "email": "contact@alexandresimonet.fr"
+                }
+            ],
+            "description": "Library using PaypelExpressCheckout with nvp API",
+            "time": "2015-05-26 08:19:54"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.4",
@@ -628,7 +658,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "alexandresimonet/paypal-component": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

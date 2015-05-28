@@ -22,7 +22,20 @@ userCreate:
   controller: Taf\Controllers\UserController
   action: userCreate
 
+doPayment:
+  controller: Taf\Controllers\PaymentController
+  action: payment
 
+
+
+paymentSuccess:
+  controller: Taf\Controllers\PageController
+  action: paymentSuccess
+
+
+paymentCancel:
+  controller: Taf\Controllers\PageController
+  action: paymentCancel
 
 404:
   controller: Taf\Controllers\Error
