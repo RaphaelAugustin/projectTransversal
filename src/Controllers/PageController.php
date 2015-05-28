@@ -53,12 +53,6 @@ class PageController {
             $this->render('signIn.html.twig', array())
         );
     }
-    public function getSignIn2()
-    {
-        return new Response(
-            $this->render('signIn2.html.twig', array())
-        );
-    }
     protected function render($template, $variables)
     {
         $template =$this->twig->loadTemplate($template);

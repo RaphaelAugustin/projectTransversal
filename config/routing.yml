@@ -18,9 +18,11 @@ signIn:
   controller: Taf\Controllers\PageController
   action: getSignIn
 
-signIn2:
-  controller: Taf\Controllers\PageController
-  action: getSignIn2
+userCreate:
+  controller: Taf\Controllers\UserController
+  action: userCreate
+
+
 
 404:
   controller: Taf\Controllers\Error
