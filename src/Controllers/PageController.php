@@ -53,6 +53,21 @@ class PageController {
             $this->render('signIn.html.twig', array())
         );
     }
+
+    public function paymentSuccess()
+    {
+        return new Response(
+            $this->render('paymentSuccess.html.twig', array())
+        );
+    }
+
+
+    public function paymentCancel()
+    {
+        return new Response(
+            $this->render('paymentCancel.html.twig', array())
+        );
+    }
     protected function render($template, $variables)
     {
         $template =$this->twig->loadTemplate($template);
