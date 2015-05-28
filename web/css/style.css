@@ -47,14 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-body{
-	width: 1920px;
-	height: 100%;
-	position: absolute;
-}
+
 
 .menu{
-	width: 1920px;
+	width: 100%;
 	height: 60px;
 	background-color:#8fbe00;
 	position: relative;
@@ -131,7 +127,6 @@ border-width:1px;
 }
 
 .home-slider {
-    position: absolute;
     width: 100%;
     height: 570px;
     margin-left:0px;
@@ -141,7 +136,6 @@ border-width:1px;
 /* Pagination */
 
 .home-slider .pagination {
-    position: absolute;
     z-index: 2;
     bottom: 16px;
     left: 0;
@@ -206,7 +200,6 @@ input, button, select {
 /* Nav */
 
 .home-slider .navigation .arrow {
-    position: absolute;
     z-index: 2;
     top: 50%;
     width: 30px;
@@ -267,7 +260,6 @@ input, button, select {
 }
 
 .home-slider .slider-item {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -275,7 +267,6 @@ input, button, select {
 }
 
 .home-slider .slider-item .bg {
-    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
@@ -286,7 +277,6 @@ input, button, select {
 }
 
 .home-slider .slider-item .content-box {
-    position: absolute;
     z-index: 2;
     bottom: 50%;
     left: 55px;
@@ -297,7 +287,6 @@ input, button, select {
 }
 
 .home-slider .slider-item .content {
-    position: absolute;
     bottom: 0;
 }
 
@@ -348,14 +337,12 @@ input, button, select {
 	font-size:40px;
 	margin-top:200px;
 	margin-left: 200px;
-	position: absolute;
 }
 
 .p-bloc{
 	font-size:30px;
 }
 .bloc{
-	position: absolute;
 	background-color: #e5d4bf;
 	opacity: 0.5;
 	width: 550px;
@@ -365,7 +352,6 @@ input, button, select {
 }
 /*SEPARATEUR */
 .rectangle{
-	position: absolute;
 	width:300px;
 	height:40px;
 	background:#00a8c6;
@@ -380,70 +366,63 @@ input, button, select {
 }
 .bloc-tarif{width: 100%;
 	height: 700px;
-	position: absolute;
 	margin-top:970px;
 	/*background-color:red;*/
 }
 .p-offre{
-	position: absolute;
 	margin-top: 300px;
 	font-size:30px;
 	margin-left: 550px;
 	font-family: 'Lato';
 	font-style: italic;
 }
-.icon-men{position: absolute;
+.icon-men{
 	margin-top:500px;
 	margin-left: 300px;
 }
 .icon-reservation{
-	position: absolute;
 	margin-top: 500px;
 	margin-left: 600px;
 }
 .icon-main{
-	position: absolute;
 	margin-top: 520px;
 	margin-left: 900px;
 }
 .icon-scooter{
-	position: absolute;
 	margin-top:500px;
 	margin-left: 1200px;
 }
 .icon-parking{
-	position: absolute;
 	margin-top:500px;
 	margin-left:1500px;
 }
-.cercle1{position: absolute;
+.cercle1{
 	width: 180px;
 	margin-left:253px;
 	margin-top:480px;
 }
-.cercle2{position: absolute;
+.cercle2{
 	width: 190px;
 	margin-left:557px;
 	margin-top:475px;
 }
-.cercle3{position: absolute;
+.cercle3{
 	width: 190px;
 	margin-left:860px;
 	margin-top:480px;
 }
-.cercle4{position: absolute;
+.cercle4{
 	width: 190px;
 	margin-left:1163px;
 	margin-top:475px;
 }
-.cercle5{position: absolute;
+.cercle5{
 	width: 190px;
 	margin-left:1445px;
 	margin-top:472px;
 }
 .abonne{
 	font-family:'lato';
-	position: absolute;
 	margin-left: 280px;
 	margin-top:650px;
 	font-size: 25px;
@@ -452,7 +431,6 @@ input, button, select {
 }
 .reserve{
 	font-family:'lato';
-	position: absolute;
 	margin-left: 600px;
 	margin-top:650px;
 	font-size: 25px;
@@ -461,7 +439,6 @@ input, button, select {
 }
 .loue{
 	font-family:'lato';
-	position: absolute;
 	margin-left: 910px;
 	margin-top:650px;
 	font-size: 25px;
@@ -470,7 +447,6 @@ input, button, select {
 }
 .roule{
 	font-family:'lato';
-	position: absolute;
 	margin-left: 1200px;
 	margin-top:650px;
 	font-size: 25px;
@@ -479,7 +455,6 @@ input, button, select {
 }
 .gare{
 	font-family:'lato';
-	position: absolute;
 	margin-left: 1480px;
 	margin-top:650px;
 	font-size: 25px;
@@ -490,13 +465,11 @@ input, button, select {
 
 /*plan des stations*/
 .bloc-station{
-	width: 1920px;
+	width: 100%;
 	height: 700px;
-	position: absolute;
 	margin-top:1850px;
 }
 .rectangle-2{
-	position: absolute;
 	width:300px;
 	height:40px;
 	background:#00a8c6;
@@ -505,19 +478,17 @@ input, button, select {
 }
 
 .map{
-	width:1920px;
+	width:100%;
 	margin-left: -820px;
 	height: 700px;
 	margin-top:10px;
 }
 
 .recherche{
-	position: absolute;
 	margin-top:100px;
 	margin-left: -650px;
 }
 .ok-recherche{
-	position: absolute;
 	margin-top:100px;
 	margin-left: -475px;
 }
@@ -532,7 +503,6 @@ input, button, select {
 }
 
 .rectangle-3{
-	position: absolute;
 	width:300px;
 	height:40px;
 	background:#00a8c6;
@@ -541,7 +511,6 @@ input, button, select {
 }
 
 .forme-tarif{
-	position: absolute;
 	width: 300px;
 	height: 400px;
 	background: white;
@@ -551,7 +520,6 @@ input, button, select {
 }
 
 .bloc-formule{
-	position: absolute;
 	width: 300px;
 	height: 50px;
 	background: #00a8c6;
@@ -566,7 +534,6 @@ input, button, select {
 }
 
 .prix{
-	position: absolute;
 	font-size:70px;
 	margin-top:80px;
 	margin-left: 80px;
@@ -575,7 +542,6 @@ input, button, select {
 }
 
 .jours{
-	position: absolute;
 	font-size: 20px;
 	margin-top: 130px;
 	margin-left: 220px;
@@ -583,7 +549,6 @@ input, button, select {
 	font-style: italic;
 }
 .plus{
-	position: absolute;
 	font-weight: 20px;
 	margin-top: 180px;
 	margin-left: 50px;
@@ -591,7 +556,6 @@ input, button, select {
 }
 
 .text-plus{
-	position: absolute;
 	font-weight: 20px;
 	margin-top:180px;
 	margin-left: 60px;
@@ -607,7 +571,6 @@ input, button, select {
 }
 
 .forme-tarif-2{
-	position: absolute;
 	width: 300px;
 	height: 400px;
 	background: white;
@@ -616,7 +579,6 @@ input, button, select {
 	border:1px solid #00a8c6;
 }
 .bloc-formule-2{
-	position: absolute;
 	width: 300px;
 	height: 50px;
 	background: #8fbe00;
@@ -635,7 +597,6 @@ a{
 }
 
 .forme-tarif-3{
-	position: absolute;
 	width: 300px;
 	height: 400px;
 	background: white;
@@ -654,7 +615,6 @@ a{
 }
 
 .prix-3{
-	position: absolute;
 	font-size:70px;
 	margin-top:50px;
 	margin-left: 80px;
@@ -662,7 +622,6 @@ a{
 	font-style: italic;
 }
 .jours-3{
-	position: absolute;
 	font-size: 20px;
 	margin-top: 100px;
 	margin-left: 260px;
@@ -671,7 +630,6 @@ a{
 }
 
 .plus-3{
-	position: absolute;
 	font-weight: 20px;
 	margin-top: 145px;
 	margin-left: 50px;
@@ -679,7 +637,6 @@ a{
 }
 
 .text-plus-3{
-	position: absolute;
 	font-weight: 20px;
 	margin-top:145px;
 	margin-left: 60px;
@@ -721,7 +678,6 @@ a{
 	color: white;
 }
 .bouton{
-	position:absolute;
 	margin-top: 30px;
 	margin-left: 800px;
 	width: 350px;
@@ -883,7 +839,6 @@ label{position:relative;
 }
 
 .bloc-flooter-inscription{
-	position: absolute;
 	width: 100%;
 	height: 100px;
 	margin-top:1800px;
@@ -895,7 +850,6 @@ label{position:relative;
 /*INSCRIPTION-SUITE*/
 .bloc-inscription-suite{
 	margin-top:60px;
-	position: absolute;
 	width: 1800px;
 	height: 600px;
 }
@@ -952,7 +906,6 @@ label{position:relative;
 	background-color: #f6f6f6;
 }
 .contact-scoot{
-position: absolute;
 color: #1f9cb6;
 font-style: italic;
 font-size: 30px;
@@ -962,7 +915,6 @@ margin-top:100px;
 }
 
 .question{
-	position: absolute;
 	font-family: 'lato';
 	font-style: italic;
 	font-size:20px;
@@ -970,7 +922,6 @@ margin-top:100px;
 	margin-top:150px;
 }
 .nom{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -978,13 +929,11 @@ margin-top:100px;
 	margin-top:250px;
 }
 .input-nom{
-	position: absolute;
 	margin-left: 100px;
 	margin-top:280px;
 	width: 450px;
 }
 .mail{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -994,13 +943,11 @@ margin-top:100px;
 
 
 .input-mail{
-position: absolute;
 	margin-left: 100px;
 	margin-top:380px;
 	width: 450px;
 }
 .message{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -1008,7 +955,6 @@ position: absolute;
 	margin-top:450px;
 }
 .input-message{
-	position: absolute;
 	margin-left: 100px;
 	margin-top:480px;
 	width: 450px;
@@ -1016,7 +962,6 @@ position: absolute;
 }
 
 .button{
-		position:absolute;
 	margin-top: 600px;
 	margin-left: 400px;
 	width: 150px;
@@ -1030,7 +975,6 @@ position: absolute;
 }
 
 .contact-client{
-	position: absolute;
 color: #1f9cb6;
 font-style: italic;
 font-size: 20px;
@@ -1040,7 +984,6 @@ margin-top:200px;
 }
 
 .numero{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -1048,7 +991,6 @@ margin-top:200px;
 	margin-top:250px;
 }
 .ecrire{
-	position: absolute;
 color: #1f9cb6;
 font-style: italic;
 font-size: 20px;
@@ -1057,7 +999,6 @@ margin-left: 700px;
 margin-top:450px;
 }
 .adresse-ecrire{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -1065,7 +1006,6 @@ margin-top:450px;
 	margin-top:500px;
 }
 .centre{
-	position: absolute;
 color: #1f9cb6;
 font-style: italic;
 font-size: 20px;
@@ -1074,7 +1014,6 @@ margin-left: 1200px;
 margin-top:200px;
 }
 .adresse-centre{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -1082,7 +1021,6 @@ margin-top:200px;
 	margin-top:250px;
 }
 .reclamation{
-	position: absolute;
 color: #1f9cb6;
 font-style: italic;
 font-size: 20px;
@@ -1091,7 +1029,6 @@ margin-left: 1200px;
 margin-top:450px;
 }
 .adresse-reclamation{
-	position: absolute;
 	font-family: 'lato';
 	font-style:italic;
 	font-size: 20px;
@@ -1100,13 +1037,11 @@ margin-top:450px;
 }
 
 .footer-contact{
-	position: absolute;
 	width: 100%;
 	height: 100px;
 	margin-top:00px;
 }
 .ul-flooter-contact{
-	position: absolute;
 }
 .lien-floot{
 	text-decoration: none;
@@ -1226,13 +1161,12 @@ margin-top:450px;
 	margin-left: 1150px;
 	font-size: 20px;
 }
-.ajout-carte{position: absolute;
+.ajout-carte{
 	color: #1f9cb6;
 	margin-top:50px;
 	text-transform: uppercase;
 }
 .bouton-paiement{
-	position: absolute;
 	margin-top: 200px;
 	margin-left: 1100px;
 	width: 150px;
