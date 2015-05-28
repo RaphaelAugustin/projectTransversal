@@ -1133,6 +1133,10 @@ margin-top:450px;
 }
 /*PAGE DE PAIEMENT*/
 
+.bouton-etape:active{
+
+}
+
 .selection{
 	text-align: center;
 	font-size: 30px;

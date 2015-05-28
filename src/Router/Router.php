@@ -18,9 +18,9 @@ class Router
     public function __construct(array $routes)
     {
         $defaultRoute = array(
-            "route_404" => array(
-                "controller" => "Taf\\Controllers\\Error",
-                "action" => "error404Action"
+            "home" => array(
+                "controller" => "Taf\\Controllers\\PageControllers",
+                "action" => "getHome"
             )
         );
 
@@ -38,7 +38,7 @@ class Router
             return $this->routes[$routeName];
         }
 
-        return $this->routes['route_404'];
+        return $this->routes['home'];
     }
 
 
