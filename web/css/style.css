@@ -213,6 +213,7 @@ section {
     background: #8fbe00;
     padding: 20px 0;
     margin-bottom: 0;
+    margin-top: 0;
 }
 #question p {
     padding: 0;
@@ -256,4 +257,57 @@ section {
 .footer img {
     display: inline-block;
     width: 20px;
+}
+
+
+form label {
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+form input[type=text], form input[type=email], form input[type=password], form input[type=number], form input[type=date] {
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+form input[type=submit],form input[type=button], .bloc-inscription-suite, .texte-terme, .texte-champ {
+    margin-left: 200px;
+}
+
+.etat {
+    color: #8fbe00;
+    font-weight: bold;
+    font-family: 'Lora';
+    font-size: 25px;
+}
+
+
+
+
+.contact-scoot {
+    color: #40c0cb;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.blue {
+    color: #40c0cb;
+    margin: 25px 0;
+}
+
+.dark {
+    color: black;
+    margin: 25px 0;
+}
+.bloc-contact-page {
+    background: #F5F5F5;
+    padding: 30px;
 }
