@@ -56,7 +56,6 @@ table {
 header {
     background: #8fbe00;
     padding: 15px 0;
-    position: fixed;
     width: 100%;
     z-index: 10;
 }

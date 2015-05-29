@@ -20,12 +20,13 @@
 <header>
     <div class="container">
         <ul class="pull-left">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Comment ça marche?</a></li>
-            <li><a href="#">Plan des stations</a></li>
-            <li><a href="#">Offres et tarifs</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="lien-logo" href="index.php?p=home">SCOOT'LIB</a></li>
+            <li><a class="lien-menu" href="index.php?p=home">Accueil</a></li>
+            <li><a class="lien-menu" href="index.php?p=home#presentation">Comment ca marche?</a></li>
+            <li><a class="lien-menu" href="index.php?p=home#map">Plan des stations</a></li>
+            <li><a class="lien-menu" href="index.php?p=home#offers">Offres et tarifs</a></li>
+            <li><a class="lien-menu" href="index.php?p=home#faq">FAQ</a></li>
+            <li><a class="lien-menu" href="index.php?p=contact">Contact</a></li>
         </ul>
         <div class="pull-right">
             <a href="#" class="button">Connexion</a>
@@ -37,12 +38,16 @@
 {% block content %}{% endblock %}
 
 <!-- Footer -->
+<section id="question" class="text-center">
+    <p>Des questions ? N’hésitez pas à nous contacter !</p>
+    <a href="#" class="button">Contact</a>
+</section>
 <div class="footer">
     <div class="container">
         <ul class="pull-left">
             <li><a href="index.php?p=home">Accueil</a></li>
-            <li><a href="index.php?p=working">Comment ca marche?</a></li>
-            <li><a href="index.php?p=#plan">Plan des stations</a></li>
+            <li><a href="index.php?p=presentation">Comment ca marche?</a></li>
+            <li><a href="index.php?p=#map">Plan des stations</a></li>
             <li><a href="index.php?p=#offers">Offres et tarifs</a></li>
             <li><a href="index.php?p=#faq">FAQ</a></li>
             <li><a href="index.php?p=contact">Contact</a></li>
